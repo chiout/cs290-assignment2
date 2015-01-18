@@ -1,0 +1,28 @@
+/* Styling for table */
+
+tbody th {
+	font-style:italic;
+	font-weight:normal;
+}
+
+tbody tr td:nth-child(2) {
+	color:red;
+}
+
+tbody tr td:nth-child(4) {
+	color:blue;
+}
+
+tbody tr:nth-child(1),tbody tr:nth-child(3),tbody tr:nth-child(5) {
+	background-color:#81e928;
+}
+
+tbody tr:nth-child(2),tbody tr:nth-child(4) {
+	background-color:#61bcfc;
+}
+
+/*Styling for dl list*/
+
+dt:hover+dd{
+	background-color:purple;
+}
