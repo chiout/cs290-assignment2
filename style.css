@@ -1,5 +1,4 @@
 /* Styling for table */
-
 tbody th {
 	font-style:italic;
 	font-weight:normal;
@@ -21,8 +20,46 @@ tbody tr:nth-child(2),tbody tr:nth-child(4) {
 	background-color:#61bcfc;
 }
 
-/*Styling for dl list*/
+td {
+	border:solid;
+	border-color: black;
+	border-width:1px;
+}
+
+th {
+	border:solid;
+	border-color: black;
+	border-width:1px;
+}
+
+
+/* Styling for dl list */
 
 dt:hover+dd{
 	background-color:purple;
+}
+
+
+/* Styling for outer-content */
+.outer-content {
+	background-color: pink;
+	padding:15px 0;
+	margin-top:20px;
+	margin-left:0;
+	width:75%;
+}
+
+
+/* Styling for inner-content div */
+.inner-content {
+	background-color:blue;
+	margin:0 auto;
+	text-align: center;
+	width:75%;
+}
+
+
+/* Styling for image */
+img {
+	float:left;
 }
